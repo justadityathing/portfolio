@@ -11,7 +11,7 @@
 <nav>
   <div class="nav-in">
     <a href="index.html" class="nav-logo">
-      <span class="logo-ac">ac</span><span class="logo-sep">·</span><span class="logo-txt">product design</span>
+      <span class="logo-ac">ac</span><span class="logo-sep">·</span><span class="logo-txt">product &amp; UX design portfolio</span>
     </a>
     <ul class="nav-links">
       <li><a href="index.html#about">About</a></li>
@@ -40,19 +40,19 @@
       <tr><td>Role</td><td>UI Design Intern — sole designer on this module</td></tr>
       <tr><td>Timeline</td><td>March – August 2025 (6 months)</td></tr>
       <tr><td>My scope</td><td>Templates module, AI email flow</td></tr>
-      <tr><td>Status</td><td>Live — shipped to production</td></tr>
+      <tr><td>Status</td><td><b>Live</b> — shipped to production</td></tr>
     </table>
 
     <!-- OVERVIEW -->
     <section class="cs-section rv">
-      <span class="moment-label">Overview</span>
+      <p class="section-label">Overview</p>
       <p>MailerOne is an email marketing platform that enables businesses to design, manage, and analyze email campaigns at scale. It combines template management, audience segmentation, campaign analytics, and AI-assisted content generation into a single workflow.</p>
-      <p>During my six-month internship, I designed the Templates module and AI-assisted email generation experience, translating product requirements into production-ready interfaces while working within an existing design system.</p>
+      <p style="color:var(--dim);margin-top:1rem">During my six-month internship, I designed the Templates module and AI-assisted email generation experience, translating product requirements into production-ready interfaces while working within an existing design system.</p>
     </section>
 
     <!-- CHALLENGE -->
     <section class="cs-section rv">
-      <span class="moment-label">Challenge</span>
+      <p class="section-label">Challenge</p>
       <p>MailerOne already had an established design system and product direction. My responsibility was to translate product requirements into production-ready interfaces while maintaining consistency across the platform.</p>
     </section>
 
@@ -66,54 +66,69 @@
 
     <!-- WORKFLOW -->
     <section class="cs-section rv">
-      <span class="section-label">Workflow</span>
-      <div class="ai-workflow">
-        <div class="ai-step"><p class="ai-icon">Founder brief</p><p>Platform + users</p></div>
-        <span class="ai-arrow">→</span>
-        <div class="ai-step"><p class="ai-icon">PRD</p><p>Requirements from PM</p></div>
-        <span class="ai-arrow">→</span>
-        <div class="ai-step"><p class="ai-icon">Components</p><p>Lavender system</p></div>
-        <span class="ai-arrow">→</span>
-        <div class="ai-step highlight"><p class="ai-icon">40+ hi-fi screens</p><p>My output</p></div>
+      <p class="section-label">Workflow</p>
+      <div class="flow-diagram">
+        <svg viewBox="0 0 780 90" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;">
+          <defs>
+            <marker id="a1" markerWidth="7" markerHeight="5" refX="7" refY="2.5" orient="auto">
+              <path d="M0,0 L7,2.5 L0,5" fill="#8C8A92"/>
+            </marker>
+          </defs>
+          <rect x="0" y="15" width="160" height="60" rx="1" fill="#141418" stroke="#26262C"/>
+          <text x="80" y="40" text-anchor="middle" font-family="IBM Plex Mono,monospace" font-size="9.5" fill="#F2792E" letter-spacing="1">FOUNDER BRIEF</text>
+          <text x="80" y="58" text-anchor="middle" font-family="Inter,sans-serif" font-size="10" fill="#8C8A92">Platform + users</text>
+          <line x1="168" y1="45" x2="198" y2="45" stroke="#8C8A92" stroke-width="1.5" marker-end="url(#a1)"/>
+          <rect x="206" y="15" width="160" height="60" rx="1" fill="#141418" stroke="#26262C"/>
+          <text x="286" y="40" text-anchor="middle" font-family="IBM Plex Mono,monospace" font-size="9.5" fill="#F2792E" letter-spacing="1">PRD</text>
+          <text x="286" y="58" text-anchor="middle" font-family="Inter,sans-serif" font-size="10" fill="#8C8A92">Requirements from PM</text>
+          <line x1="374" y1="45" x2="404" y2="45" stroke="#8C8A92" stroke-width="1.5" marker-end="url(#a1)"/>
+          <rect x="412" y="15" width="160" height="60" rx="1" fill="#141418" stroke="#26262C"/>
+          <text x="492" y="40" text-anchor="middle" font-family="IBM Plex Mono,monospace" font-size="9.5" fill="#F2792E" letter-spacing="1">COMPONENTS</text>
+          <text x="492" y="58" text-anchor="middle" font-family="Inter,sans-serif" font-size="10" fill="#8C8A92">Lavender system</text>
+          <line x1="580" y1="45" x2="610" y2="45" stroke="#8C8A92" stroke-width="1.5" marker-end="url(#a1)"/>
+          <rect x="618" y="15" width="162" height="60" rx="1" fill="rgba(123,110,232,.15)" stroke="#7B6EE8"/>
+          <text x="699" y="40" text-anchor="middle" font-family="IBM Plex Mono,monospace" font-size="9.5" fill="#7B6EE8" letter-spacing="1">40+ HI-FI SCREENS</text>
+          <text x="699" y="58" text-anchor="middle" font-family="Inter,sans-serif" font-size="10" fill="#7B6EE8">My output</text>
+        </svg>
       </div>
     </section>
 
-    <!-- THE WORK -->
+    <!-- TEMPLATES MODULE -->
     <section class="cs-section rv">
       <span class="moment-label">The work</span>
       <h2>Templates module</h2>
       <p>I designed a persistent two-pane layout that let marketers browse, compare, and preview templates while keeping the editor one click away. Keeping both views visible reduced unnecessary navigation and made it easier to work across large template libraries.</p>
 
-      <img src="images/mailerone/templates-view.png" alt="Templates list-detail layout" class="cs-img-full rv">
+      <img src="images/mailerone/templates-view.png" alt="Templates list-detail layout — scrollable template list with status indicators and a full email preview" class="cs-img-full rv">
 
       <p>Common actions such as renaming, duplicating, and deleting templates were kept lightweight, while destructive actions required confirmation to prevent accidental data loss. Campaign analytics remained attached to each template instead of a separate dashboard, allowing marketers to review performance where decisions were made. Operational settings like subject lines, audience segments, and metadata were separated from content editing to keep the workspace organized.</p>
 
-      <img src="images/mailerone/templates-edit-details.png" alt="Email editor with toolbar and details panel" class="cs-img-full rv">
+      <img src="images/mailerone/templates-edit-details.png" alt="Email editor — toolbar with mode tabs and device preview, plus the Details panel for subject, segments, and attachments" class="cs-img-full rv">
     </section>
 
-    <!-- AI FLOW -->
+    <!-- AI GENERATION -->
     <section class="cs-section rv">
-      <span class="section-label">Key design moment</span>
+      <span class="moment-label">Key design moment</span>
       <h2>Designing AI-assisted email generation for marketers</h2>
       <p>To help marketers draft campaign emails faster, I designed an AI-assisted generation flow directly inside the editor. Instead of treating AI as a separate tool, the experience kept users within their existing workflow while giving them full control over the generated content.</p>
 
-      <div class="gap-grid">
-        <div class="gap-card"><div class="g-num">01</div><h4>Entry point</h4><p>The "Generate With AI" button sits in the editor toolbar — right where users already are when they want to create something. No separate AI section to find. No context switch.</p></div>
-        <div class="gap-card"><div class="g-num">02</div><h4>Prompting</h4><p>Clicking opens the "Magic by AI" modal. A large preview area dominates the top, with a prompt input at the bottom: "Type your idea.. we'll draft your mail." The user sees their credit balance and cost before they commit.</p></div>
-        <div class="gap-card"><div class="g-num">03</div><h4>Generation feedback</h4><p>The user types a plain-language description. A loader appears while the AI works. The credit usage bar updates to show consumption.</p></div>
-        <div class="gap-card"><div class="g-num">04</div><h4>Review before insert</h4><p>The AI returns a fully formatted marketing email — subject line, body copy, product images, and a CTA. Three actions at the bottom: Regenerate, New Prompt, and Insert. The user is never locked into a bad output.</p></div>
-        <div class="gap-card"><div class="g-num">05</div><h4>Continue editing</h4><p>Hitting Insert drops the generated template straight into the editor. The full editing toolbar is available. The AI output becomes a starting point the user owns — not a locked artifact, but a draft they can rewrite and make theirs.</p></div>
+      <div class="step-list">
+        <div class="step-row"><span class="s-num">01</span><div><h4>Entry point</h4><p>The "Generate With AI" button sits in the editor toolbar — right where users already are when they want to create something. No separate AI section to find. No context switch.</p></div></div>
+        <div class="step-row"><span class="s-num">02</span><div><h4>Prompting</h4><p>Clicking opens the "Magic by AI" modal. A large preview area dominates the top, with a prompt input at the bottom: "Type your idea.. we'll draft your mail." The user sees their credit balance and cost before they commit.</p></div></div>
+        <div class="step-row"><span class="s-num">03</span><div><h4>Generation feedback</h4><p>The user types a plain-language description. A loader appears while the AI works. The credit usage bar updates to show consumption.</p></div></div>
+        <div class="step-row"><span class="s-num">04</span><div><h4>Review before insert</h4><p>The AI returns a fully formatted marketing email — subject line, body copy, product images, and a CTA. Three actions at the bottom: Regenerate, New Prompt, and Insert. The user is never locked into a bad output.</p></div></div>
+        <div class="step-row"><span class="s-num">05</span><div><h4>Continue editing</h4><p>Hitting Insert drops the generated template straight into the editor. The full editing toolbar is available. The AI output becomes a starting point the user owns — not a locked artifact, but a draft they can rewrite and make theirs.</p></div></div>
       </div>
 
       <h3>Edge case: credits exhausted</h3>
       <p>When a user runs out of credits, the modal surfaces a clear message with a "Purchase Credits" button. The credit usage bar reinforces consumption. The flow doesn't dead-end — it routes them toward buying more.</p>
 
-      <img src="images/mailerone/ai-result.png" alt="AI generation flow — Magic by AI modal" class="cs-img-full rv">
+      <img src="images/mailerone/ai-result.png" alt="Magic by AI modal — a generated marketing email with Regenerate, New Prompt, and Insert actions" class="cs-img-full rv">
     </section>
 
-    <!-- TOGGLE CONFLICT -->
+    <!-- DECISION I LOST TWICE -->
     <section class="cs-section rv">
-      <span class="section-label">Key design moment</span>
+      <span class="moment-label">Key design moment</span>
       <h2>The decision I lost twice</h2>
 
       <h3>Decision 1: the email scheduler</h3>
@@ -149,14 +164,14 @@
       <div class="reflection-box">
         <h3>I had a principle I believed in. It failed. And instead of adapting my argument, I repeated it.</h3>
         <p>The toggle story is the thing I keep thinking about. Not because the founder was wrong — if a feature genuinely helps users and nobody uses it because it's hidden behind a toggle, I've designed a beautiful ghost. Sometimes removing a choice is the design decision.</p>
-        <p style="margin-top:.9rem">But the fact that I hit the same wall twice with the same approach tells me something. The lesson wasn't that my design was wrong—it was that I defended a principle instead of reframing it around the product goal. I argued for user autonomy, while the product was optimizing for feature adoption. Next time, I'd explore solutions that satisfy both.</p>
+        <p style="margin-top:.9rem">But the fact that I hit the same wall twice with the same approach tells me something. The lesson wasn't that my design was wrong — it was that I defended a principle instead of reframing it around the product goal. I argued for user autonomy, while the product was optimizing for feature adoption. Next time, I'd explore solutions that satisfy both.</p>
       </div>
     </section>
 
     <!-- WHAT I'VE LEARNED -->
     <section class="cs-section rv">
       <p class="section-label">What I've learned</p>
-      <p>I'd look for a middle ground before defending a single solution. Instead of arguing for a visible enable/disable toggle, I could have proposed a default-on experience with an opt-out in settings—balancing feature adoption with user control. I learned that product design isn't about winning arguments; it's about finding solutions that satisfy both business goals and user needs.</p>
+      <p>I'd look for a middle ground before defending a single solution. Instead of arguing for a visible enable/disable toggle, I could have proposed a default-on experience with an opt-out in settings — balancing feature adoption with user control. I learned that product design isn't about winning arguments; it's about finding solutions that satisfy both business goals and user needs.</p>
     </section>
 
     <div class="next-project rv">
@@ -175,7 +190,7 @@
 
 <footer>
   <div class="ft-in shell">
-    <span><b>Aditya Choudhary</b> · Product & UX Designer · Bengaluru, India</span>
+    <span><b>Aditya Choudhary</b> · Product &amp; UX Designer · Bengaluru, India</span>
     <span>© 2026</span>
   </div>
 </footer>

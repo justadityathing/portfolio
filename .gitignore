@@ -1,0 +1,12 @@
+# Internal / non-deployed
+case studies/
+cs-caleb-mono-demo/
+portfolio-handoff.md
+
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Local tooling
+.claude/
