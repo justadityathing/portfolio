@@ -29,7 +29,6 @@
     <section class="cs-hero rv">
       <p class="cs-breadcrumb"><a href="index.html">All work</a></p>
       <h1>MailerOne: Designing <em>AI-assisted email creation</em> for an email marketing platform.</h1>
-      <p class="cs-subtitle">Complete Templates module and AI-assisted email creation flow for a live SaaS email marketing platform — sole designer, 40+ screens, shipped to production.</p>
     </section>
 
     <hr class="rule">
@@ -47,7 +46,6 @@
     <section class="cs-section rv">
       <p class="section-label">Overview</p>
       <p>MailerOne is an email marketing platform that enables businesses to design, manage, and analyze email campaigns at scale. It combines template management, audience segmentation, campaign analytics, and AI-assisted content generation into a single workflow.</p>
-      <p style="color:var(--dim);margin-top:1rem">During my six-month internship, I designed the Templates module and AI-assisted email generation experience, translating product requirements into production-ready interfaces while working within an existing design system.</p>
     </section>
 
     <!-- CHALLENGE -->
@@ -113,15 +111,15 @@
       <p>To help marketers draft campaign emails faster, I designed an AI-assisted generation flow directly inside the editor. Instead of treating AI as a separate tool, the experience kept users within their existing workflow while giving them full control over the generated content.</p>
 
       <div class="step-list">
-        <div class="step-row"><span class="s-num">01</span><div><h4>Entry point</h4><p>The "Generate With AI" button sits in the editor toolbar — right where users already are when they want to create something. No separate AI section to find. No context switch.</p></div></div>
+        <div class="step-row"><span class="s-num">01</span><div><h4>Entry point</h4><p>The "Generate With AI" button sits in the editor toolbar right where users already are when they want to create something. No separate AI section to find. No context switch.</p></div></div>
         <div class="step-row"><span class="s-num">02</span><div><h4>Prompting</h4><p>Clicking opens the "Magic by AI" modal. A large preview area dominates the top, with a prompt input at the bottom: "Type your idea.. we'll draft your mail." The user sees their credit balance and cost before they commit.</p></div></div>
-        <div class="step-row"><span class="s-num">03</span><div><h4>Generation feedback</h4><p>The user types a plain-language description. A loader appears while the AI works. The credit usage bar updates to show consumption.</p></div></div>
-        <div class="step-row"><span class="s-num">04</span><div><h4>Review before insert</h4><p>The AI returns a fully formatted marketing email — subject line, body copy, product images, and a CTA. Three actions at the bottom: Regenerate, New Prompt, and Insert. The user is never locked into a bad output.</p></div></div>
-        <div class="step-row"><span class="s-num">05</span><div><h4>Continue editing</h4><p>Hitting Insert drops the generated template straight into the editor. The full editing toolbar is available. The AI output becomes a starting point the user owns — not a locked artifact, but a draft they can rewrite and make theirs.</p></div></div>
+        <div class="step-row"><span class="s-num">03</span><div><h4>Generation feedback</h4><p>The user types a plain language description. A loader appears while the AI works. The credit usage bar updates to show consumption.</p></div></div>
+        <div class="step-row"><span class="s-num">04</span><div><h4>Review before insert</h4><p>The AI returns a fully formatted marketing email consisting of subject line, body copy, product images, and a CTA. Three actions at the bottom: Regenerate, New Prompt, and Insert. The user is never locked into a bad output.</p></div></div>
+        <div class="step-row"><span class="s-num">05</span><div><h4>Continue editing</h4><p>Hitting Insert drops the generated template straight into the editor. The full editing toolbar is available. The AI output becomes a starting point the user owns & not a locked artifact, but a draft they can rewrite and make theirs.</p></div></div>
       </div>
 
       <h3>Edge case: credits exhausted</h3>
-      <p>When a user runs out of credits, the modal surfaces a clear message with a "Purchase Credits" button. The credit usage bar reinforces consumption. The flow doesn't dead-end — it routes them toward buying more.</p>
+      <p>When a user runs out of credits, the modal surfaces a clear message with a "Purchase Credits" button. The credit usage bar reinforces consumption. The flow doesn't dead-end instead it routes them toward buying more.</p>
 
       <img src="images/mailerone/ai-result.png" alt="Magic by AI modal — a generated marketing email with Regenerate, New Prompt, and Insert actions" class="cs-img-full rv">
     </section>
@@ -134,27 +132,27 @@
       <h3>Decision 1: the email scheduler</h3>
       <p>I designed the email scheduler with an enable/disable toggle. My reasoning: users should consciously opt into scheduling. Let them decide. Let the interface be transparent about what's happening.</p>
       <p>The founder pushed back. His intent is to make users use this feature. If scheduling is opt-in, most users will never find the toggle, never try the feature, and the platform's value sits unused. Remove the toggle. Make it default-on.</p>
-      <p>I removed the toggle. The scheduler shipped default-on — not an option within the workflow, but the workflow itself.</p>
+      <p>I removed the toggle. The scheduler shipped default-on.</p>
 
       <h3>Decision 2: AI email recommendations</h3>
-      <p>The exact same thing happened with the AI recommendation feature. I designed it with the same enable/disable toggle. Same principle — users should consciously choose to use AI-assisted features.</p>
+      <p>The exact same thing happened with the AI recommendation feature. I designed it with the same enable/disable toggle. Same principle: users should consciously choose to use AI assisted features.</p>
       <p>The founder gave me the same answer. Same logic. Remove the toggle. Default it on.</p>
       <p>Twice I walked in with the same UX instinct. Twice I walked out having removed the same button.</p>
 
       <div class="before-after">
         <div class="ba-card before">
           <div class="ba-label">My approach (both times)</div>
-          <p>Enable/disable toggle. User opts in consciously. Respects autonomy — but risks the feature going unnoticed.</p>
+          <p>Enable/disable toggle. User opts in consciously. Respects autonomy but risks the feature going unnoticed.</p>
         </div>
         <div class="ba-arrow">→</div>
         <div class="ba-card after">
           <div class="ba-label">What shipped (both times)</div>
-          <p>Feature on by default. No toggle. It's part of the workflow — always visible, always active. The feature becomes the experience, not an option within it.</p>
+          <p>Feature on by default. No toggle. It's part of the workflow, always visible, always active. The feature becomes the experience, not an option within it.</p>
         </div>
       </div>
 
       <div class="callout">
-        <p>The hardest part of this project wasn't any single screen or interaction. It was making the case for conscious user control and losing that argument — twice.</p>
+        <p>The hardest part of this project wasn't any single screen or interaction. It was making the case for conscious user control and losing that argument twice.</p>
       </div>
     </section>
 
@@ -163,15 +161,15 @@
       <p class="section-label">Reflection</p>
       <div class="reflection-box">
         <h3>I had a principle I believed in. It failed. And instead of adapting my argument, I repeated it.</h3>
-        <p>The toggle story is the thing I keep thinking about. Not because the founder was wrong — if a feature genuinely helps users and nobody uses it because it's hidden behind a toggle, I've designed a beautiful ghost. Sometimes removing a choice is the design decision.</p>
-        <p style="margin-top:.9rem">But the fact that I hit the same wall twice with the same approach tells me something. The lesson wasn't that my design was wrong — it was that I defended a principle instead of reframing it around the product goal. I argued for user autonomy, while the product was optimizing for feature adoption. Next time, I'd explore solutions that satisfy both.</p>
+        <p>The toggle story is the thing I keep thinking about. Not because the founder was wrong if a feature genuinely helps users and nobody uses it because it's hidden behind a toggle, I've designed a beautiful ghost. Sometimes removing a choice is the design decision.</p>
+        <p style="margin-top:.9rem">But the fact that I hit the same wall twice with the same approach tells me something. The lesson wasn't that my design was wrong it was that I defended a principle instead of reframing it around the product goal. I argued for user autonomy, while the product was optimizing for feature adoption. Next time, I'd explore solutions that satisfy both.</p>
       </div>
     </section>
 
     <!-- WHAT I'VE LEARNED -->
     <section class="cs-section rv">
       <p class="section-label">What I've learned</p>
-      <p>I'd look for a middle ground before defending a single solution. Instead of arguing for a visible enable/disable toggle, I could have proposed a default-on experience with an opt-out in settings — balancing feature adoption with user control. I learned that product design isn't about winning arguments; it's about finding solutions that satisfy both business goals and user needs.</p>
+      <p>I'd look for a middle ground before defending a single solution. Instead of arguing for a visible enable/disable toggle, I could have proposed a default-on experience with an opt-out in settings & balancing feature adoption with user control. I learned that product design isn't about winning arguments; it's about finding solutions that satisfy both business goals and user needs.</p>
     </section>
 
     <div class="next-project rv">
